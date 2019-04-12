@@ -622,7 +622,7 @@ _pendsv_handler:
 	bx lr
 _systickzhongduan:
 	ldr r2, = jishu
-	ldr r0, = 0xe0000d04
+	ldr r0, = 0xe000ed04
 	ldr r3, [r2]
 	ldr r1, = 0x02000000
 	adds r3, r3, # 1
